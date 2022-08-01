@@ -52,3 +52,6 @@ function UserForm (){
 }
 
 export default UserForm
+
+
+//THIS HAS ROUTE (NEWUSER)

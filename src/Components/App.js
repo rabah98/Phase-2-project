@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import UserForm from './UserForm';
 import ProfileContainer from './ProfileContainer';
 import { useState, useEffect } from 'react';
