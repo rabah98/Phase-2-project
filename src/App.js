@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <card>
+        <img src='https://randomuser.me/api/portraits/men/58.jpg' alt='name' />
+        <p>location: city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120' </p>
+        <p>Name": "title: 'Mr', first: 'Zborislav', last: 'Rudnickiy</p>
+        <p>Age: 67</p>
+        <p>Email: "agnethe.gronnestad@example.com</p>
+      </card>
     </div>
   );
 }
