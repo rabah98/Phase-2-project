@@ -1,16 +1,19 @@
 import './App.css';
+import ProfileContainer from './ProfileContainer';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [users, setUsers] = useState([])
+  useEffect(() => {
+    fetch('http://localhost:3001/users')
+    .then( res => res.json())
+    .then( users => setUsers(users) )
+  },[])
+
   
   return (
     <div className="App">
-      <card>
-        <img src='https://randomuser.me/api/portraits/men/58.jpg' alt='name' />
-        <p>location: city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120' </p>
-        <p>Name": "title: 'Mr', first: 'Zborislav', last: 'Rudnickiy</p>
-        <p>Age: 67</p>
-        <p>Email: "agnethe.gronnestad@example.com</p>
-      </card>
+      <ProfileContainer users={users} />
     </div>
   );
 }
