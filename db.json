@@ -1,84 +1,84 @@
 {
-  "users": [
-      {
-          "id": 0,
-          "email": "sara.peltonen@example.com",
-          "location": "city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120'",
-          "age": 75,
-          "name": "title: 'Miss', first: 'Sara', last: 'Peltonen",
-          "image": "https://randomuser.me/api/portraits/women/50.jpg"
-      },
-      {
-          "id": 1,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120'",
-          "age": 57,
-          "name": "title: 'Ms', first: 'Kari', last: 'Øen",
-          "image": "https://randomuser.me/api/portraits/women/25.jpg"
-      },
-      {
-          "id": 2,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120'",
-          "age": 56,
-          "name": "title: 'Mademoiselle', first: 'Rosa', last: 'Bourgeois",
-          "image": "https://randomuser.me/api/portraits/women/52.jpg"
-      },
-      {
-          "id": 3,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120'",
-          "age": 67,
-          "name": "title: 'Mr', first: 'Zborislav', last: 'Rudnickiy",
-          "image": "https://randomuser.me/api/portraits/men/58.jpg"
-      },
-      {
-          "id": 4,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120'",
-          "age": 70,
-          "name": "title: 'Mrs', first: 'Silje', last: 'Mortensen'",
-          "image": "https://randomuser.me/api/portraits/women/69.jpg"
-      },
-      {
-          "id": 5,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120'",
-          "age": 37,
-          "name": "title: 'Miss', first: 'Inmaculada', last: 'Esteban",
-          "image": "https://randomuser.me/api/portraits/women/14.jpg"
-      },
-      {
-          "id": 6,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Preston', state: 'East Sussex', country: 'United Kingdom', postcode: 'R2 8FJ",
-          "age": 64,
-          "name": "title: 'Mrs', first: 'Laura', last: 'Lawrence'",
-          "image": "https://randomuser.me/api/portraits/women/14.jpg"
-      },
-      {
-          "id": 7,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'København Ø', state: 'Nordjylland', country: 'Denmark', postcode: 56109", 
-          "age": 21,
-          "name": "Mrs', first: 'Lea', last: 'Olsen",
-          "image": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-          "id": 8,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Kinsarvik', state: 'Troms - Romsa', country: 'Norway', postcode: '3120'",
-          "age": 70,
-          "name": "Ms', first: 'Agnethe', last: 'Grønnestad",
-          "image": "https://randomuser.me/api/portraits/women/81.jpg"
-      },
-      {
-          "id": 9,
-          "email": "agnethe.gronnestad@example.com",
-          "location": "city: 'Preston', state: 'Rutland', country: 'United Kingdom', postcode: 'R35 6HF", 
-          "age": 48,
-          "name": "Mr', first: 'Elijah', last: 'Medina",
-          "image": "https://randomuser.me/api/portraits/men/98.jpg"
-      }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "email": "sara.peltonen@example.com",
+            "location": "Texas",
+            "age": 23,
+            "name": "Sara Peltonen",
+            "image": "https://randomuser.me/api/portraits/women/50.jpg"
+        },
+        {
+            "id": 2,
+            "email": "kari.smith@example.com",
+            "location": "New Jersey",
+            "age": 18,
+            "name": "Kari Smith",
+            "image": "https://randomuser.me/api/portraits/women/25.jpg"
+        },
+        {
+            "id": 3,
+            "email": "rosa.bourgeois@example.com",
+            "location": "Indiana",
+            "age": 56,
+            "name": "Rosa Bourgeois",
+            "image": "https://randomuser.me/api/portraits/women/52.jpg"
+        },
+        {
+            "id": 4,
+            "email": "zborislav.rudnickiy@example.com",
+            "location": "Florida",
+            "age": 35,
+            "name": "Zborislav Rudnickiy",
+            "image": "https://randomuser.me/api/portraits/men/58.jpg"
+        },
+        {
+            "id": 5,
+            "email": "silje.mortensen@example.com",
+            "location": "Delaware",
+            "age": 45,
+            "name": "Silje Mortensen",
+            "image": "https://randomuser.me/api/portraits/women/69.jpg"
+        },
+        {
+            "id": 6,
+            "email": "amy.esteban@example.com",
+            "location": "Washington",
+            "age": 37,
+            "name": "Any Esteban",
+            "image": "https://randomuser.me/api/portraits/women/14.jpg"
+        },
+        {
+            "id": 7,
+            "email": "laura.lawrence@example.com",
+            "location": "Maine",
+            "age": 30,
+            "name": "Laura Lawrence'",
+            "image": "https://randomuser.me/api/portraits/women/16.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lea.olsen@example.com",
+            "location": "Kansas", 
+            "age": 47,
+            "name": "Lea Olsen",
+            "image": "https://randomuser.me/api/portraits/women/4.jpg"
+        },
+        {
+            "id": 9,
+            "email": "agatha.gronnestad@example.com",
+            "location": "Arizona",
+            "age": 46,
+            "name": "Agatha Gronnestad",
+            "image": "https://randomuser.me/api/portraits/women/81.jpg"
+        },
+        {
+            "id": 10,
+            "email": "elijah.medina@example.com",
+            "location": "Montana", 
+            "age": 48,
+            "name": "Elijah Medina",
+            "image": "https://randomuser.me/api/portraits/men/98.jpg"
+        }
+    ]
 }
