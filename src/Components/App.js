@@ -28,31 +28,18 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
-<<<<<<< HEAD
-          <Route exact path="/profile">
-            <ProfileContainer users={users} />
-          </Route>
-          <Route exact path="/form">
-            <UserForm submitFunction={submitFunction}/>
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch>
-     
-      
-=======
         <Route exact path="/profile">
           <ProfileContainer users={users} />
         </Route>
         <Route exact path="/form">
-          <UserForm />
+          <UserForm submitFunction={submitFunction}/>
         </Route>
         <Route exact path="/">
           <Home />
         </Route>
       </Switch>
->>>>>>> a49c689baf2f088467423e503c6c692a8011419d
+     
+      
     </div>
   );
 }
