@@ -1,3 +1,4 @@
+import React from 'react';
 import '../App.css';
 import UserForm from './UserForm';
 import ProfileContainer from './ProfileContainer';
@@ -38,6 +39,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Button>hi</Button>
     </div>
   );
 }

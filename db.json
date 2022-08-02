@@ -6,7 +6,8 @@
       "location": "Texas",
       "age": 23,
       "name": "Sara Peltonen",
-      "image": "https://randomuser.me/api/portraits/women/50.jpg"
+      "image": "https://randomuser.me/api/portraits/women/50.jpg",
+      "post": "Has anyone seen my dog? He has spots."
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "location": "New Jersey",
       "age": 18,
       "name": "Kari Smith",
-      "image": "https://randomuser.me/api/portraits/women/25.jpg"
+      "image": "https://randomuser.me/api/portraits/women/25.jpg",
+      "post": "Lost my keys, they have a chapstick keyring."
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "location": "Indiana",
       "age": 56,
       "name": "Rosa Bourgeois",
-      "image": "https://randomuser.me/api/portraits/women/52.jpg"
+      "image": "https://randomuser.me/api/portraits/women/52.jpg",
+      "post": "Has anyone seen my cat. (not dog)."
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "location": "Florida",
       "age": 35,
       "name": "Zborislav Rudnickiy",
-      "image": "https://randomuser.me/api/portraits/men/58.jpg"
+      "image": "https://randomuser.me/api/portraits/men/58.jpg",
+      "post": "I want a promotion."
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "location": "Delaware",
       "age": 45,
       "name": "Silje Mortensen",
-      "image": "https://randomuser.me/api/portraits/women/69.jpg"
+      "image": "https://randomuser.me/api/portraits/women/69.jpg",
+      "post": "Hello from Delaware!"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "location": "Washington",
       "age": 37,
       "name": "Any Esteban",
-      "image": "https://randomuser.me/api/portraits/women/14.jpg"
+      "image": "https://randomuser.me/api/portraits/women/14.jpg",
+      "post": "I love the lifestyle AND culture of Mega Corp <3"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "location": "Maine",
       "age": 30,
       "name": "Laura Lawrence'",
-      "image": "https://randomuser.me/api/portraits/women/16.jpg"
+      "image": "https://randomuser.me/api/portraits/women/16.jpg",
+      "post": "I love my Mega family!"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "location": "Kansas",
       "age": 47,
       "name": "Lea Olsen",
-      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+      "image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "post": ".... *hesitation* idk."
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "location": "Arizona",
       "age": 46,
       "name": "Agatha Gronnestad",
-      "image": "https://randomuser.me/api/portraits/women/81.jpg"
+      "image": "https://randomuser.me/api/portraits/women/81.jpg",
+      "post": "The annual kickball game is this weekend! Bring your cleats and family!"
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "location": "Montana",
       "age": 48,
       "name": "Elijah Medina",
-      "image": "https://randomuser.me/api/portraits/men/98.jpg"
+      "image": "https://randomuser.me/api/portraits/men/98.jpg",
+      "post": "Be kind, for everyone you meet is fighting a hard battle. -Socrates"
     }
   ]
 }
