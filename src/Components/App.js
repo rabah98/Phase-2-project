@@ -1,8 +1,4 @@
-<<<<<<< HEAD:src/Components/App.js
 import '../App.css';
-=======
-import './index.css';
->>>>>>> Rabah:src/App.js
 import UserForm from './UserForm';
 import ProfileContainer from './ProfileContainer';
 import { useState, useEffect } from 'react';
