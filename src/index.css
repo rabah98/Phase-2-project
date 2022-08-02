@@ -12,32 +12,28 @@ code {
     monospace;
 }
 
-.cards {
-  list-style: none;
-}
-
 .card {
-  margin: 1rem;
+  width: calc(33% - 2rem);
+  margin: 7px;
+  display: grid;
+  grid-template-rows: max-content 100px 1fr;
+  padding: 12px 20px;
+  border: 2px solid;
 }
 
 .card img {
-  width: 100%;
+  width: 85%;
+  border-radius: 50%;
+  margin-left: 20px;
 }
 
-.card button {
-  margin-top: 0.5rem;
-}
 
 @media (min-width: 768px) {
   .cards {
     display: flex;
     flex-wrap: wrap;
   }
-
-  .card {
-    width: calc(33% - 2rem);
-  }
-}
+} 
 
 @media (min-width: 1024px) {
   .card {
@@ -49,4 +45,37 @@ code {
   .card {
     width: calc(20% - 2rem);
   }
+}
+.container {
+  margin: 20px;
+  margin-left: 300px;
+  width: 250px;
+}
+
+input {
+  width: 100%;
+  border: 2px solid green;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-image: url();
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+.submit {
+  background-color: blue;
+  font-size: large;
+  padding : 5px 15px; 
+  background: blue; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 7px; 
+} 
+
+p {
+  margin-left: 70px;
+  font-weight: bold;
+  font-size: 20px;
 }
