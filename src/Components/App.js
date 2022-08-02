@@ -36,10 +36,9 @@ function App() {
           <UserForm />
         </Route>
         <Route exact path="/">
-          <Home />
+          <Home users={users}/>
         </Route>
       </Switch>
-      <Button>hi</Button>
     </div>
   );
 }
