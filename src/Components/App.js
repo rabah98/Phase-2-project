@@ -1,3 +1,4 @@
+import React from 'react';
 import '../App.css';
 import UserForm from './UserForm';
 import ProfileContainer from './ProfileContainer';
@@ -35,11 +36,14 @@ function App() {
           <UserForm submitFunction={submitFunction}/>
         </Route>
         <Route exact path="/">
-          <Home />
+          <Home users={users}/>
         </Route>
       </Switch>
+<<<<<<< HEAD
      
       
+=======
+>>>>>>> 3cb22fff774760981f12b00f9db0213924f53b81
     </div>
   );
 }

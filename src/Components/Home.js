@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useSyncExternalStore } from "react";
+import HomePosts from "./HomePosts";
 
 
-function Home () {
+function Home ({users}) {
+
+    
+    
     return(
-        <div>    
-            MEGA CORP HOMEPAGE
+        <div className="cards">    
+            {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
         </div>
     )
 }
 
 export default Home
 
-
-//THIS HAS ROUTE(HOME)
