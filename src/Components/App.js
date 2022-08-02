@@ -15,6 +15,8 @@ function App() {
     .then( users => setUsers(users) )
   },[])
 
+  console.log(users)
+
   function submitFunction(obj) {
     setUsers([...users, obj])
   }
@@ -28,7 +30,7 @@ function App() {
             <ProfileContainer users={users} />
           </Route>
           <Route exact path="/form">
-            <UserForm />
+            <UserForm submitFunction={submitFunction}/>
           </Route>
           <Route exact path="/">
             <Home />
