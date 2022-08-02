@@ -1,84 +1,90 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "email": "sara.peltonen@example.com",
-            "location": "Texas",
-            "age": 23,
-            "name": "Sara Peltonen",
-            "image": "https://randomuser.me/api/portraits/women/50.jpg"
-        },
-        {
-            "id": 2,
-            "email": "kari.smith@example.com",
-            "location": "New Jersey",
-            "age": 18,
-            "name": "Kari Smith",
-            "image": "https://randomuser.me/api/portraits/women/25.jpg"
-        },
-        {
-            "id": 3,
-            "email": "rosa.bourgeois@example.com",
-            "location": "Indiana",
-            "age": 56,
-            "name": "Rosa Bourgeois",
-            "image": "https://randomuser.me/api/portraits/women/52.jpg"
-        },
-        {
-            "id": 4,
-            "email": "zborislav.rudnickiy@example.com",
-            "location": "Florida",
-            "age": 35,
-            "name": "Zborislav Rudnickiy",
-            "image": "https://randomuser.me/api/portraits/men/58.jpg"
-        },
-        {
-            "id": 5,
-            "email": "silje.mortensen@example.com",
-            "location": "Delaware",
-            "age": 45,
-            "name": "Silje Mortensen",
-            "image": "https://randomuser.me/api/portraits/women/69.jpg"
-        },
-        {
-            "id": 6,
-            "email": "amy.esteban@example.com",
-            "location": "Washington",
-            "age": 37,
-            "name": "Any Esteban",
-            "image": "https://randomuser.me/api/portraits/women/14.jpg"
-        },
-        {
-            "id": 7,
-            "email": "laura.lawrence@example.com",
-            "location": "Maine",
-            "age": 30,
-            "name": "Laura Lawrence'",
-            "image": "https://randomuser.me/api/portraits/women/16.jpg"
-        },
-        {
-            "id": 8,
-            "email": "lea.olsen@example.com",
-            "location": "Kansas", 
-            "age": 47,
-            "name": "Lea Olsen",
-            "image": "https://randomuser.me/api/portraits/women/4.jpg"
-        },
-        {
-            "id": 9,
-            "email": "agatha.gronnestad@example.com",
-            "location": "Arizona",
-            "age": 46,
-            "name": "Agatha Gronnestad",
-            "image": "https://randomuser.me/api/portraits/women/81.jpg"
-        },
-        {
-            "id": 10,
-            "email": "elijah.medina@example.com",
-            "location": "Montana", 
-            "age": 48,
-            "name": "Elijah Medina",
-            "image": "https://randomuser.me/api/portraits/men/98.jpg"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "email": "sara.peltonen@example.com",
+      "location": "Texas",
+      "age": 23,
+      "name": "Sara Peltonen",
+      "image": "https://randomuser.me/api/portraits/women/50.jpg"
+    },
+    {
+      "id": 2,
+      "email": "kari.smith@example.com",
+      "location": "New Jersey",
+      "age": 18,
+      "name": "Kari Smith",
+      "image": "https://randomuser.me/api/portraits/women/25.jpg"
+    },
+    {
+      "id": 3,
+      "email": "rosa.bourgeois@example.com",
+      "location": "Indiana",
+      "age": 56,
+      "name": "Rosa Bourgeois",
+      "image": "https://randomuser.me/api/portraits/women/52.jpg"
+    },
+    {
+      "id": 4,
+      "email": "zborislav.rudnickiy@example.com",
+      "location": "Florida",
+      "age": 35,
+      "name": "Zborislav Rudnickiy",
+      "image": "https://randomuser.me/api/portraits/men/58.jpg"
+    },
+    {
+      "id": 5,
+      "email": "silje.mortensen@example.com",
+      "location": "Delaware",
+      "age": 45,
+      "name": "Silje Mortensen",
+      "image": "https://randomuser.me/api/portraits/women/69.jpg"
+    },
+    {
+      "id": 6,
+      "email": "amy.esteban@example.com",
+      "location": "Washington",
+      "age": 37,
+      "name": "Any Esteban",
+      "image": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 7,
+      "email": "laura.lawrence@example.com",
+      "location": "Maine",
+      "age": 30,
+      "name": "Laura Lawrence'",
+      "image": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 8,
+      "email": "lea.olsen@example.com",
+      "location": "Kansas",
+      "age": 47,
+      "name": "Lea Olsen",
+      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 9,
+      "email": "agatha.gronnestad@example.com",
+      "location": "Arizona",
+      "age": 46,
+      "name": "Agatha Gronnestad",
+      "image": "https://randomuser.me/api/portraits/women/81.jpg"
+    },
+    {
+      "id": 10,
+      "email": "elijah.medina@example.com",
+      "location": "Montana",
+      "age": 48,
+      "name": "Elijah Medina",
+      "image": "https://randomuser.me/api/portraits/men/98.jpg"
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    }
+  ]
 }

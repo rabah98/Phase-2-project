@@ -8,11 +8,16 @@ import Home from './Home';
 
 function App() {
   const [users, setUsers] = useState([])
+
   useEffect(() => {
     fetch('http://localhost:3001/users')
     .then( res => res.json())
     .then( users => setUsers(users) )
   },[])
+
+  function submitFunction(obj) {
+    setUsers([...users, obj])
+  }
 
   
   return (
