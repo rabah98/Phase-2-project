@@ -5,6 +5,8 @@ import { useState, useEffect } from 'react';
 import NavBar from './NavBar';
 import { Route, Switch } from "react-router-dom";
 import Home from './Home';
+import { Button, Dropdown } from 'react-bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   const [users, setUsers] = useState([])
@@ -26,6 +28,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
+<<<<<<< HEAD
           <Route exact path="/profile">
             <ProfileContainer users={users} />
           </Route>
@@ -38,6 +41,18 @@ function App() {
         </Switch>
      
       
+=======
+        <Route exact path="/profile">
+          <ProfileContainer users={users} />
+        </Route>
+        <Route exact path="/form">
+          <UserForm />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+>>>>>>> a49c689baf2f088467423e503c6c692a8011419d
     </div>
   );
 }
