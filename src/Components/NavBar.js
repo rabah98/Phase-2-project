@@ -16,13 +16,13 @@ function NavBar(){
     return(
         <div>
             Pages:
-            <NavLink to= "/"  exact style={linkStyles} activeStyle={{background: "lightblue"}}>
+            <NavLink to= "/"  exact style={linkStyles} activeStyle={{background: "#ADD8E6"}}>
               Home
             </NavLink>
-            <NavLink to= "/profile"  exact style={linkStyles} activeStyle={{background: "lightblue"}}>
+            <NavLink to= "/profile"  exact style={linkStyles} activeStyle={{background: "#ADD8E6"}}>
               People
             </NavLink>
-            <NavLink to= "/form" exact style={linkStyles} activeStyle={{background: "lightblue"}}>
+            <NavLink to= "/form" exact style={linkStyles} activeStyle={{background: "#ADD8E6"}}>
               Sign Up
             </NavLink>
         </div>

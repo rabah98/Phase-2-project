@@ -1,5 +1,6 @@
 import React, { useSyncExternalStore } from "react";
 import HomePosts from "./HomePosts";
+import { Card } from "react-bootstrap";
 
 
 function Home ({users}) {
@@ -17,6 +18,7 @@ function Home ({users}) {
     return(
         <div style={myStyle} class="container border col-6">    
             {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
+
         </div>
 
     )
