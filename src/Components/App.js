@@ -33,12 +33,14 @@ function App() {
           <ProfileContainer users={users} />
         </Route>
         <Route exact path="/form">
-          <UserForm />
+          <UserForm submitFunction={submitFunction}/>
         </Route>
         <Route exact path="/">
           <Home users={users}/>
         </Route>
       </Switch>
+     
+      
     </div>
   );
 }
