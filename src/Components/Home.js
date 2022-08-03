@@ -3,17 +3,15 @@ import HomePosts from "./HomePosts";
 import { Card } from "react-bootstrap";
 import Comments from "./Comments";
 import { useState } from "react";
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function Home ({users, updatePosts}) {
     const myStyle={
-        backgroundImage: 
- "url('https://images.unsplash.com/photo-1572916118992-5e36d71f7f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d29vZGVuJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1572916118992-5e36d71f7f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d29vZGVuJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')",
         height:'100%',
-        marginTop:'-50px',
+        marginTop:'5px',
         fontSize:'50px',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -34,6 +32,7 @@ function Home ({users, updatePosts}) {
     
     return(
     <div>
+       
         {/* <div style={myStyle} class="container border col-6">    
             {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
 
@@ -41,9 +40,15 @@ function Home ({users, updatePosts}) {
         </div> */}
         <Container >
         <Row>
+            <Col></Col>
+            <Col md="auto">
+            <h1>MegaCorp Social Community Bulletin Board</h1>
+            </Col>
+            <Col></Col>
+        </Row>
+        <Row>
           <Col md="auto">
           <Comments addNewComment={addNewComment} />
-          Varible width content
           </Col>
           <Col style={myStyle}>  
             {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}

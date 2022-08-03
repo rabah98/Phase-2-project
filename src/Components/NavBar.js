@@ -15,7 +15,6 @@ function NavBar(){
     
     return(
         <div>
-            Pages:
             <NavLink to= "/"  exact style={linkStyles} activeStyle={{background: "#ADD8E6"}}>
               Home
             </NavLink>
@@ -23,7 +22,7 @@ function NavBar(){
               People
             </NavLink>
             <NavLink to= "/form" exact style={linkStyles} activeStyle={{background: "#ADD8E6"}}>
-              Sign Up
+              SignUp
             </NavLink>
         </div>
     )
