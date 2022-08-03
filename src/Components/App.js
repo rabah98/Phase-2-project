@@ -39,11 +39,8 @@ function App() {
           <Home users={users}/>
         </Route>
       </Switch>
-<<<<<<< HEAD
      
       
-=======
->>>>>>> 3cb22fff774760981f12b00f9db0213924f53b81
     </div>
   );
 }
