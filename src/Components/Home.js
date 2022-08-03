@@ -7,7 +7,7 @@ function Home ({users}) {
     
     
     return(
-        <div className="cards">    
+        <div class="container border col-6">    
             {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
         </div>
     )
