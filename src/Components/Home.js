@@ -1,6 +1,8 @@
 import React, { useSyncExternalStore } from "react";
 import HomePosts from "./HomePosts";
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Home ({users}) {
     const myStyle={
@@ -15,9 +17,21 @@ function Home ({users}) {
     
     
     return(
-        <div style={myStyle} class="container border col-6">    
-            {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
-        </div>
+        <Container >
+        <Row>
+          <Col md="auto">Varible width content</Col>
+          <Col style={myStyle}>  
+                {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
+           </Col>
+        </Row>
+      </Container>
+        // <div>
+   
+  
+        //     <div style={myStyle} class="container border col-6">    
+        //         {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
+        //     </div>
+        // </div>
 
     )
 }
