@@ -3,6 +3,9 @@ import HomePosts from "./HomePosts";
 import { Card } from "react-bootstrap";
 import Comments from "./Comments";
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Home ({users}) {
     const myStyle={
@@ -17,11 +20,25 @@ function Home ({users}) {
     
     
     return(
-        <div style={myStyle} class="container border col-6">    
+    <div>
+        {/* <div style={myStyle} class="container border col-6">    
             {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
 
             <Comments />
-        </div>
+        </div> */}
+        <Container >
+        <Row>
+          <Col md="auto">
+          <Comments />
+          Varible width content
+          </Col>
+          <Col style={myStyle}>  
+                {users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )}
+           </Col>
+        </Row>
+      </Container>
+    </div>
+        
 
     )
 }
