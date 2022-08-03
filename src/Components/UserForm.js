@@ -9,24 +9,26 @@ function UserForm ({submitFunction}){
   const [inputEmail, setInputEmail] = useState('')
   const [inputLocation, setInputLocation] = useState('')
   const [inputAge, setInputAge] = useState('')
-
+  console.log(inputName, inputAge, inputEmail, inputImage, inputLocation)
   function handleSubmit(e) {
     e.preventDefault()
     const newUser = {
-      "email": inputEmail,
-      "location": inputLocation,
-      "age": inputAge,
-      "name": inputName,
-      "image": inputImage
+      email: inputEmail,
+      location: inputLocation,
+      age: inputAge,
+      name: inputName,
+      image: inputImage
     }
     fetch('http://localhost:3001/users', {
       method: "POST",
-      Headers: {
+      headers: {
         'Accept': 'application.json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(newUser)
     })
+    .then(res => res.json())
+    .then((data) => console.log(data))
 
     submitFunction(newUser)
     e.target.reset()
@@ -45,9 +47,9 @@ function UserForm ({submitFunction}){
           className="input-text"
           onChange={(e) => setInputName(e.target.value)}
         /> */}
-        <Form.Group className="input-text" controlId="userName" onChange={(e) => setInputName(e.target.value)}>
+        <Form.Group className="input-text" controlId="userName" >
           <Form.Label>Name</Form.Label>
-          <Form.Control type="text" placeholder="Enter first and last name" />
+          <Form.Control type="text" placeholder="Enter first and last name" onChange={(e) => setInputName(e.target.value)}/>
         </Form.Group>
         <br />
         {/* <input
@@ -57,9 +59,9 @@ function UserForm ({submitFunction}){
           className="input-text"
           onChange={(e) => setInputImage(e.target.value)}
         /> */}
-        <Form.Group className="input-text" controlId="userPicture" onChange={(e) => setInputImage(e.target.value)}>
+        <Form.Group className="input-text" controlId="userPicture"  >
           <Form.Label>Profile Picture</Form.Label>
-          <Form.Control type="text" placeholder="Profile picture...." />
+          <Form.Control type="text" placeholder="Profile picture...." onChange={(e) => setInputImage(e.target.value)} />
         </Form.Group>
         <br />
         {/* <input
@@ -69,9 +71,9 @@ function UserForm ({submitFunction}){
           className="input-text"
           onChange={(e) => setInputEmail(e.target.value)}
         /> */}
-        <Form.Group className="input-text" controlId="userEmail" onChange={(e) => setInputEmail(e.target.value)}>
+        <Form.Group className="input-text" controlId="userEmail" >
           <Form.Label>Company Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter your company email" />
+          <Form.Control type="email" placeholder="Enter your company email" onChange={(e) => setInputEmail(e.target.value)} />
         </Form.Group>
         <br />
         {/* <input
@@ -81,9 +83,9 @@ function UserForm ({submitFunction}){
           className="input-text"
           onChange={(e) => setInputLocation(e.target.value)}
         /> */}
-        <Form.Group className="input-text" controlId="userLocation" onChange={(e) => setInputLocation(e.target.value)}>
+        <Form.Group className="input-text" controlId="userLocation" >
           <Form.Label>Location</Form.Label>
-          <Form.Control type="text" placeholder="Enter your location..." />
+          <Form.Control type="text" placeholder="Enter your location..." onChange={(e) => setInputLocation(e.target.value)} />
         </Form.Group>
         <br />
         {/* <input
@@ -93,9 +95,9 @@ function UserForm ({submitFunction}){
           className="input-text"
           onChange={(e) => setInputAge(e.target.value)}
         /> */}
-         <Form.Group className="input-text" controlId="userAge" onChange={(e) => setInputAge(e.target.value)}>
-          <Form.Label>Company Email</Form.Label>
-          <Form.Control type="text" placeholder="Enter your age..." />
+         <Form.Group className="input-text" controlId="userAge"  >
+          <Form.Label>Age</Form.Label>
+          <Form.Control type="text" placeholder="Enter your age..."  onChange={(e) => setInputAge(e.target.value)}/>
         </Form.Group>
         <br />
         <input

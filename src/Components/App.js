@@ -11,7 +11,10 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   const [users, setUsers] = useState([])
-
+  function updatePosts(newObj) {
+    const newPost = [...users, newObj]
+    setUsers(newPost)
+  }
   useEffect(() => {
     fetch('http://localhost:3001/users')
     .then( res => res.json())
@@ -36,7 +39,7 @@ function App() {
           <UserForm submitFunction={submitFunction}/>
         </Route>
         <Route exact path="/">
-          <Home users={users}/>
+          <Home users={users} updatePosts={updatePosts}/>
         </Route>
       </Switch>
      
