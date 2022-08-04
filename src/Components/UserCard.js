@@ -1,14 +1,26 @@
 import React from 'react';
+import { useState } from 'react';
 
 const UserCard = ({name, image, email, age, location, showFunction}) => {
+    const [isMore, setIsMore] = useState(true)
     function handleClick () {
-        showFunction(email, age, location)
+        setIsMore(!isMore)
     }
     return (
         <div className="card" >
-            <img src={image} alt={name} onClick={handleClick} />
-            <p>{name}</p>
-            <button className='button' onClick={handleClick} >More Info</button>
+            { isMore ?
+                <div>
+                    <img src={image} alt={name} />
+                    <p>{name}</p>
+                </div> :
+                <div className='more-info'>
+                    <p>Age: {age}</p>
+                    <p>Location: {location}</p>
+                    <p>Email: {email}</p>
+                </div> 
+            }
+           
+            <button className='submit' onClick={handleClick} >More Info</button>
         </div>
     );
 };
