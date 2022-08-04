@@ -13,7 +13,7 @@ const UserCard = ({name, image, email, age, location, showFunction}) => {
                     <img src={image} alt={name} />
                     <p>{name}</p>
                 </div> :
-                <div className='more-info'>
+                <div>
                     <p>Age: {age}</p>
                     <p>Location: {location}</p>
                     <p>Email: {email}</p>
