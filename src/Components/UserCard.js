@@ -8,6 +8,7 @@ const UserCard = ({name, image, email, age, location, showFunction}) => {
         <div className="card" >
             <img src={image} alt={name} onClick={handleClick} />
             <p>{name}</p>
+            <button className='button' onClick={handleClick} >More Info</button>
         </div>
     );
 };

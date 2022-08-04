@@ -17,7 +17,7 @@ code {
   margin: 7px;
   display: grid;
   grid-template-rows: max-content 100px 1fr;
-  padding: 12px 20px;
+  padding: 16px 20px;
   border: 2px solid;
 }
 
@@ -78,4 +78,25 @@ p {
   margin-left: 70px;
   font-weight: bold;
   font-size: 20px;
+}
+.button {
+  padding: 6px 12px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: bottom 
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
