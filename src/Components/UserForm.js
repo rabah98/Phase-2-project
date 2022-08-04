@@ -39,7 +39,7 @@ function UserForm ({submitFunction}){
     return(
         <div className="container">
       <Form  onSubmit={handleSubmit}>
-        <h3>New Employee User</h3>
+        <h3>New User Sign Up</h3>
         {/* <input
           type="text"
           name="name"
