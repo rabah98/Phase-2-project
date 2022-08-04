@@ -71,7 +71,8 @@ input {
   border:0 none;
   cursor:pointer;
   -webkit-border-radius: 5px;
-  border-radius: 7px; 
+  border-radius: 7px;
+  color: white; 
 } 
 
 p {
