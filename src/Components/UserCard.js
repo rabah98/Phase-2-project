@@ -6,6 +6,13 @@ const UserCard = ({name, image, email, age, location, showFunction}) => {
     function handleClick () {
         setIsMore(!isMore)
     }
+
+    const flipCard = {
+        marginLeft: "0px",
+        fontWeight: "bold",
+        fontSize: "20px",
+    }
+
     return (
         <div className="card" >
             { isMore ?
@@ -13,10 +20,10 @@ const UserCard = ({name, image, email, age, location, showFunction}) => {
                     <img src={image} alt={name} />
                     <p>{name}</p>
                 </div> :
-                <div>
-                    <p>Age: {age}</p>
-                    <p>Location: {location}</p>
-                    <p>Email: {email}</p>
+                <div className='more-info'>
+                    <p style={flipCard}>Age: {age}</p>
+                    <p style={flipCard}>Location: {location}</p>
+                    <p style={flipCard}>Email: {email}</p>
                 </div> 
             }
            
