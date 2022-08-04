@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-const UserCard = ({name, image, email, age, location, showFunction}) => {
+const UserCard = ({name, image, email, age, location}) => {
     const [isMore, setIsMore] = useState(true)
     function handleClick () {
         setIsMore(!isMore)

@@ -15,6 +15,7 @@ function Home ({users}) {
         fontSize:'50px',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
+        border:"4px solid"
     };
 
     const [commentContainer, setContainer] = useState([])
@@ -46,10 +47,12 @@ function Home ({users}) {
             <Col></Col>
         </Row>
         <Row>
-          <Col md="auto">
+          <Col md="auto" style={{marginLeft: "0px",
+       fontWeight: "bold",
+       fontSize: "20px"}} >
           <Comments addNewComment={addNewComment} />
           </Col>
-          <Col style={myStyle}>  
+          <Col style={myStyle} md="auto">  
             { posted ? 
                 commentContainer.map(item =><HomePosts key={item.id} post={item.post} image={item.image} name={item.name}/> ) : 
                 users.map( user => <HomePosts key={user.id} post={user.post} image={user.image} name={user.name}/> )
