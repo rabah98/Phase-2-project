@@ -18,8 +18,9 @@ const Comments = ({addNewComment}) => {
           className="input-text"
           onChange={(e) => setComment(e.target.value)}
         />
+        <br />
     
-            <button type='submit' >Post a comment</button>
+            <button className="submit" type='submit' >Post a comment</button>
             
        </form>
             
