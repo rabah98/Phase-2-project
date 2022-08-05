@@ -89,6 +89,14 @@
       "name": "Elijahar Medina",
       "image": "https://randomuser.me/api/portraits/men/98.jpg",
       "post": "Be kind, for everyone you meet is fighting a hard battle. -Socrates"
+    },
+    {
+      "email": "ian@gmail.com",
+      "location": "NY",
+      "age": "27",
+      "name": "Ian",
+      "image": "pic",
+      "id": 11
     }
   ]
 }
